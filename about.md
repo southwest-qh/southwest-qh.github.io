@@ -4,7 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Analytics -> Insight -> Value!
+~~~ Python
+def get_insights(data):
+  if data.quality == 'good':
+    if data.biasness == 'No':
+      print('Go ahead with modeling!')
+    else:
+      print('Be aware of bias info!')
+  else:
+    print('Garbage in Garbage out!')
+~~~
 
 ### More Information
 
